@@ -14,6 +14,13 @@
   background-color: $light-background;
   padding: 1px 0px;
   border-bottom: 1px solid white;
+
+  @media #{$brk-medium} {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .image1-container {
@@ -22,26 +29,57 @@
   @media #{$brk-medium} {
     margin: 0;
     height: 420px;
+    width: 100%;
     margin-top: -1px;
   }
 }
 
 .image2-container {
-  @include image-containers(url("../img/home-basecamp.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
+  @include image-containers(url("../img/home-basecamp.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
+  }
 }
 
 .image3-container {
-  @include image-containers(url("../img/home-backpacking.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
+  @include image-containers(url("../img/home-backpacking.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
+  }
 }
 
 .image4-container {
-  @include image-containers(url("../img/home-canoe.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
+  @include image-containers(url("../img/home-canoe.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
+  }
 }
 
 .image5-container {
-  @include image-containers(url("../img/home-photo.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
+  @include image-containers(url("../img/home-photo.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
+  }
 }
 
 .image6-container {
-  @include image-containers(url("../img/home-custom.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
+  @include image-containers(url("../img/home-custom.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    width: 100%;
+  }
 }

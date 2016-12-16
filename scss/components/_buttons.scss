@@ -43,6 +43,11 @@
 
 .tent-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image2-container:hover .tent-icon-background {
@@ -51,6 +56,11 @@
 
 .boot-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image3-container:hover .boot-icon-background {
@@ -59,6 +69,11 @@
 
 .canoe-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image4-container:hover .canoe-icon-background {
@@ -67,6 +82,11 @@
 
 .camera-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image5-container:hover .camera-icon-background {
@@ -75,6 +95,11 @@
 
 .compass-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image6-container:hover .compass-icon-background {
