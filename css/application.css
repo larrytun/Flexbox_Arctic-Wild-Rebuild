@@ -139,7 +139,7 @@ h1 {
   display: flex;
   justify-content: space-between; }
 
-.image1-container:hover .raft-icon-background, .image2-container:hover .tent-icon-background {
+.image1-container:hover .raft-icon-background, .image2-container:hover .tent-icon-background, .image3-container:hover .boot-icon-background, .image4-container:hover .canoe-icon-background, .image5-container:hover .camera-icon-background, .image6-container:hover .compass-icon-background {
   width: 75px;
   height: 75px; }
 
@@ -198,7 +198,49 @@ h1 {
   -o-duration: 0.25s;
   transition-duration: 0.25s; }
 
-.tent-icon-background {
+.boot-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
+
+.canoe-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
+
+.camera-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
+
+.compass-icon-background {
   background-image: url("../img/bg-trans-icon.png");
   border-radius: 50%;
   width: 60px;

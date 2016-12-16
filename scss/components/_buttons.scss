@@ -44,10 +44,34 @@
   @extend %icon-hover;
 }
 
-.tent-icon-background {
+.boot-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
 }
 
-.image2-container:hover .tent-icon-background {
+.image3-container:hover .boot-icon-background {
+  @extend %icon-hover;
+}
+
+.canoe-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image4-container:hover .canoe-icon-background {
+  @extend %icon-hover;
+}
+
+.camera-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image5-container:hover .camera-icon-background {
+  @extend %icon-hover;
+}
+
+.compass-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image6-container:hover .compass-icon-background {
   @extend %icon-hover;
 }
