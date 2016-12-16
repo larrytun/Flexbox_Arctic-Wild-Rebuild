@@ -17,10 +17,56 @@ body {
 
 .gallery-container {
   background-color: #D1D1C9;
-  padding: 1px 0px; }
+  padding: 1px 0px;
+  border-bottom: 1px solid white; }
 
 .image1-container {
   background-image: url("../img/home-raft.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px; }
+
+.image2-container {
+  background-image: url("../img/home-basecamp.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px; }
+
+.image3-container {
+  background-image: url("../img/home-backpacking.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px; }
+
+.image4-container {
+  background-image: url("../img/home-canoe.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px; }
+
+.image5-container {
+  background-image: url("../img/home-photo.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px; }
+
+.image6-container {
+  background-image: url("../img/home-custom.jpg");
   height: 250px;
   width: auto;
   margin: 5%;
