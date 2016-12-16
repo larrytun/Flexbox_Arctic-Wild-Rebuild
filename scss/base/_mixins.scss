@@ -1,0 +1,29 @@
+@mixin image-containers($bg-image, $height, $width, $margin, $bg-size, $bg-position, $bg-radius, $display-wk, $display-ms, $display, $jf-content, $a-items) {
+  background-image: $bg-image;
+  height: $height;
+  width: $width;
+  margin: $margin;
+  background-size: $bg-size;
+  background-position: $bg-position;
+  border-radius: $bg-radius;
+  display: $display-wk;
+  display: $display-ms;
+  display: $display;
+  justify-content: $jf-content;
+  align-items: $a-items;
+}
+
+@mixin button-backs($bg-image, $bg-radius, $width, $height, $display-wk, $display-ms, $display, $jf-content, $wk-duration, $moz-duration, $o-duration, $duration) {
+  background-image: $bg-image;
+  border-radius: $bg-radius;
+  width: $width;
+  height: $height;
+  display: $display-wk;
+  display: $display-ms;
+  display: $display;
+  justify-content: $jf-content;
+  -webkit-duration: $wk-duration;
+	-moz-duration: $moz-duration;
+	-o-duration: $o-duration;
+	transition-duration: $duration;
+}

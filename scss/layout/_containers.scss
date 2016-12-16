@@ -17,64 +17,25 @@
 }
 
 .image1-container {
-  background-image: url("../img/home-raft.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  @include image-containers(url("../img/home-raft.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
 }
 
 .image2-container {
-  background-image: url("../img/home-basecamp.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  @include image-containers(url("../img/home-basecamp.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
 }
 
 .image3-container {
-  background-image: url("../img/home-backpacking.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  @include image-containers(url("../img/home-backpacking.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
 }
 
 .image4-container {
-  background-image: url("../img/home-canoe.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  @include image-containers(url("../img/home-canoe.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
 }
 
 .image5-container {
-  background-image: url("../img/home-photo.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  @include image-containers(url("../img/home-photo.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
 }
 
 .image6-container {
-  background-image: url("../img/home-custom.jpg");
-  height: 250px;
-  width: auto;
-  margin: 5%;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  @include image-containers(url("../img/home-custom.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center)
 }

@@ -2,6 +2,8 @@
   background-color: rgba(255,255,255,0.4);
   width: 100px;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,4 +26,28 @@
   width: 125px;
   height: 125px;
   margin-top: 325px;
+}
+
+.raft-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image1-container:hover .raft-icon-background {
+  @extend %icon-hover;
+}
+
+.tent-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image2-container:hover .tent-icon-background {
+  @extend %icon-hover;
+}
+
+.tent-icon-background {
+  @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+}
+
+.image2-container:hover .tent-icon-background {
+  @extend %icon-hover;
 }

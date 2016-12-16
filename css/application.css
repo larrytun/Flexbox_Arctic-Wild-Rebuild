@@ -57,7 +57,9 @@ h1 {
   border-radius: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .image2-container {
   background-image: url("../img/home-basecamp.jpg");
@@ -66,7 +68,12 @@ h1 {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .image3-container {
   background-image: url("../img/home-backpacking.jpg");
@@ -75,7 +82,12 @@ h1 {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .image4-container {
   background-image: url("../img/home-canoe.jpg");
@@ -84,7 +96,12 @@ h1 {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .image5-container {
   background-image: url("../img/home-photo.jpg");
@@ -93,7 +110,12 @@ h1 {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .image6-container {
   background-image: url("../img/home-custom.jpg");
@@ -102,7 +124,12 @@ h1 {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .header {
   width: 100%;
@@ -112,10 +139,16 @@ h1 {
   display: flex;
   justify-content: space-between; }
 
+.image1-container:hover .raft-icon-background, .image2-container:hover .tent-icon-background {
+  width: 75px;
+  height: 75px; }
+
 .play-button {
   background-color: rgba(255, 255, 255, 0.4);
   width: 100px;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,6 +169,48 @@ h1 {
   width: 125px;
   height: 125px;
   margin-top: 325px; }
+
+.raft-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
+
+.tent-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
+
+.tent-icon-background {
+  background-image: url("../img/bg-trans-icon.png");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-duration: 0.25s;
+  -moz-duration: 0.25s;
+  -o-duration: 0.25s;
+  transition-duration: 0.25s; }
 
 .svg-logo {
   height: 40px;
@@ -163,5 +238,8 @@ h1 {
   align-self: baseline;
   position: absolute;
   margin-top: 125px; }
+
+.pic-icons {
+  width: 50%; }
 
 /*# sourceMappingURL=application.css.map */
