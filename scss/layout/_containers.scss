@@ -1,0 +1,22 @@
+.top-area {
+  background-image: url("../img/hero-slide1.jpg");
+  width: 100vw;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-container {
+  background-color: $light-background;
+  padding: 1px 0px;
+}
+
+.image1-container {
+  background-image: url("../img/home-raft.jpg");
+  height: 250px;
+  width: auto;
+  margin: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+}
