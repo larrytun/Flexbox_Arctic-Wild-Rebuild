@@ -8,6 +8,14 @@
 body {
   margin: 0; }
 
+h2 {
+  font-size: 18px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFFFFF;
+  position: absolute;
+  letter-spacing: 4px;
+  margin-top: 200px; }
+
 .top-area {
   background-image: url("../img/hero-slide1.jpg");
   width: 100vw;
@@ -16,7 +24,8 @@ body {
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .gallery-container {
   background-color: #D1D1C9;
@@ -82,7 +91,11 @@ body {
 
 .header {
   width: 100%;
-  align-self: flex-start; }
+  align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between; }
 
 .svg-logo {
   height: 40px;
@@ -94,5 +107,21 @@ body {
 .logo {
   margin-left: 5%;
   margin-top: 35px; }
+
+.menu-icon {
+  background-image: url("../img/menu-button.png");
+  height: 20px;
+  width: 30px;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-right: 8%;
+  margin-top: 25px;
+  visibility: visible; }
+
+.alaska-icon {
+  align-self: baseline;
+  position: absolute;
+  margin-top: 125px; }
 
 /*# sourceMappingURL=application.css.map */
