@@ -30,6 +30,11 @@
 
 .raft-icon-background {
   @include button-backs(url("../img/bg-trans-icon.png"), 50%, 60px, 60px, -webkit-box, -ms-flexbox, flex, center, .25s, .25s, .25s, .25s);
+
+  @media #{$brk-medium} {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .image1-container:hover .raft-icon-background {

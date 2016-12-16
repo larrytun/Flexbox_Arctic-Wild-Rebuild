@@ -18,6 +18,12 @@
 
 .image1-container {
   @include image-containers(url("../img/home-raft.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
+
+  @media #{$brk-medium} {
+    margin: 0;
+    height: 420px;
+    margin-top: -1px;
+  }
 }
 
 .image2-container {

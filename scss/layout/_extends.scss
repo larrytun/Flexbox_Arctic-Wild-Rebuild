@@ -1,4 +1,9 @@
 %icon-hover {
   width: 75px;
   height: 75px;
+
+  @media #{$brk-medium} {
+    width: 108px;
+    height: 108px;
+  }
 }
