@@ -21,6 +21,14 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media #{$brk-large} {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
 }
 
 .image1-container {
@@ -32,6 +40,12 @@
     width: 100%;
     margin-top: -1px;
   }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
+  }
 }
 
 .image2-container {
@@ -42,15 +56,28 @@
     height: 420px;
     width: 50%;
   }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 25%;
+  }
 }
 
 .image3-container {
   @include image-containers(url("../img/home-backpacking.jpg"), 250px, auto, 5%, cover, center, 3px, -webkit-box, -ms-flexbox, flex, center, center);
 
   @media #{$brk-medium} {
+    margin-top: -1px;
     margin: 0;
     height: 420px;
     width: 50%;
+  }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 25%;
   }
 }
 
@@ -62,6 +89,12 @@
     height: 420px;
     width: 50%;
   }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 25%;
+  }
 }
 
 .image5-container {
@@ -72,6 +105,12 @@
     height: 420px;
     width: 50%;
   }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 25%;
+  }
 }
 
 .image6-container {
@@ -81,5 +120,11 @@
     margin: 0;
     height: 420px;
     width: 100%;
+  }
+
+  @media #{$brk-large} {
+    margin: 0;
+    height: 420px;
+    width: 50%;
   }
 }

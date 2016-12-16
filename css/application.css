@@ -64,6 +64,10 @@ h1 {
 @media (min-width: 768px) and (max-width: 960px) {
   .right-divider {
     left: 50%; } }
+@media (min-width: 961px) {
+  .right-divider {
+    left: 50%;
+    margin-top: 118px; } }
 
 .top-area {
   background-image: url("../img/hero-slide1.jpg");
@@ -86,6 +90,13 @@ h1 {
       display: -ms-flexbox;
       display: flex;
       flex-wrap: wrap; } }
+  @media (min-width: 961px) {
+    .gallery-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0; } }
 
 .image1-container {
   background-image: url("../img/home-raft.jpg");
@@ -106,6 +117,11 @@ h1 {
       height: 420px;
       width: 100%;
       margin-top: -1px; } }
+  @media (min-width: 961px) {
+    .image1-container {
+      margin: 0;
+      height: 420px;
+      width: 50%; } }
 
 .image2-container {
   background-image: url("../img/home-basecamp.jpg");
@@ -125,6 +141,11 @@ h1 {
       margin: 0;
       height: 420px;
       width: 50%; } }
+  @media (min-width: 961px) {
+    .image2-container {
+      margin: 0;
+      height: 420px;
+      width: 25%; } }
 
 .image3-container {
   background-image: url("../img/home-backpacking.jpg");
@@ -141,9 +162,15 @@ h1 {
   align-items: center; }
   @media (min-width: 768px) and (max-width: 960px) {
     .image3-container {
+      margin-top: -1px;
       margin: 0;
       height: 420px;
       width: 50%; } }
+  @media (min-width: 961px) {
+    .image3-container {
+      margin: 0;
+      height: 420px;
+      width: 25%; } }
 
 .image4-container {
   background-image: url("../img/home-canoe.jpg");
@@ -163,6 +190,11 @@ h1 {
       margin: 0;
       height: 420px;
       width: 50%; } }
+  @media (min-width: 961px) {
+    .image4-container {
+      margin: 0;
+      height: 420px;
+      width: 25%; } }
 
 .image5-container {
   background-image: url("../img/home-photo.jpg");
@@ -182,6 +214,11 @@ h1 {
       margin: 0;
       height: 420px;
       width: 50%; } }
+  @media (min-width: 961px) {
+    .image5-container {
+      margin: 0;
+      height: 420px;
+      width: 25%; } }
 
 .image6-container {
   background-image: url("../img/home-custom.jpg");
@@ -201,6 +238,11 @@ h1 {
       margin: 0;
       height: 420px;
       width: 100%; } }
+  @media (min-width: 961px) {
+    .image6-container {
+      margin: 0;
+      height: 420px;
+      width: 50%; } }
 
 .header {
   width: 100%;

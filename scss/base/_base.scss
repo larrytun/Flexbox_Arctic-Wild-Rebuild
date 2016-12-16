@@ -76,4 +76,9 @@ h1 {
   @media #{$brk-medium} {
     left: 50%;
   }
+
+  @media #{$brk-large} {
+    left: 50%;
+    margin-top: 118px;
+  }
 }
