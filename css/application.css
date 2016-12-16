@@ -9,12 +9,27 @@ body {
   margin: 0; }
 
 h2 {
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Fjalla One', sans-serif;
   color: #FFFFFF;
   position: absolute;
   letter-spacing: 4px;
-  margin-top: 200px; }
+  margin-top: 216px; }
+
+h1 {
+  font-size: 50px;
+  font-family: 'Amiri', serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 220px; }
+
+.thick-line {
+  width: 250px;
+  height: 5px;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-top: 308px; }
 
 .top-area {
   background-image: url("../img/hero-slide1.jpg");
@@ -96,6 +111,21 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between; }
+
+.play-button {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  padding-left: 10px;
+  margin-top: 338px; }
+
+.play-img {
+  width: 30px; }
 
 .svg-logo {
   height: 40px;

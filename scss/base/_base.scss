@@ -11,10 +11,27 @@ body {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Fjalla One', sans-serif;
   color: $white;
   position: absolute;
   letter-spacing: 4px;
-  margin-top: 200px;
+  margin-top: 216px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Amiri', serif;
+  color: $white;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 220px;
+}
+
+.thick-line {
+  width: 250px;
+  height: 5px;
+  background-color: $white;
+  position: absolute;
+  margin-top: 308px;
 }
