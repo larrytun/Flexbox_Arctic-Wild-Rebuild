@@ -10,6 +10,16 @@ body {
   margin: 0;
 }
 
+h3 {
+  font-size: 22px;
+  font-family: 'Fjalla One', sans-serif;
+  position: absolute;
+  left: 5%;
+  margin-left: 40px;
+  margin-top: 70px;
+  color: $white;
+}
+
 h2 {
   font-size: 12px;
   font-family: 'Fjalla One', sans-serif;
@@ -34,4 +44,14 @@ h1 {
   background-color: $white;
   position: absolute;
   margin-top: 308px;
+}
+
+.orange-divider {
+  width: 40px;
+  height: 5px;
+  background-color: $orange;
+  position: absolute;
+  left: 5%;
+  margin-left: 40px;
+  margin-top: 38px;
 }
