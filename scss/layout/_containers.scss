@@ -4,6 +4,9 @@
   height: 500px;
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .gallery-container {
@@ -20,6 +23,9 @@
   background-size: cover;
   background-position: center;
   border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .image2-container {

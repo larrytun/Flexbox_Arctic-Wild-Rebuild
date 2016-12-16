@@ -13,7 +13,10 @@ body {
   width: 100vw;
   height: 500px;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .gallery-container {
   background-color: #D1D1C9;
@@ -27,7 +30,10 @@ body {
   margin: 5%;
   background-size: cover;
   background-position: center;
-  border-radius: 3px; }
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .image2-container {
   background-image: url("../img/home-basecamp.jpg");
@@ -73,5 +79,20 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 3px; }
+
+.header {
+  width: 100%;
+  align-self: flex-start; }
+
+.svg-logo {
+  height: 40px;
+  width: 40px; }
+
+.svg-title {
+  height: 40px; }
+
+.logo {
+  margin-left: 5%;
+  margin-top: 35px; }
 
 /*# sourceMappingURL=application.css.map */
