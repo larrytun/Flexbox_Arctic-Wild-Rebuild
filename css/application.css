@@ -69,6 +69,30 @@ h1 {
     left: 50%;
     margin-top: 118px; } }
 
+@media (min-width: 961px) {
+  .image1-container .orange-divider {
+    margin-top: 118px;
+    left: 0%;
+    margin-left: 40px; } }
+
+@media (min-width: 961px) {
+  .image1-container h3 {
+    margin-top: 150px;
+    left: 0%;
+    margin-left: 40px; } }
+
+@media (min-width: 961px) {
+  .image4-container .orange-divider {
+    margin-top: 118px;
+    left: 0%;
+    margin-left: 40px; } }
+
+@media (min-width: 961px) {
+  .image4-container h3 {
+    margin-top: 150px;
+    left: 0%;
+    margin-left: 40px; } }
+
 .top-area {
   background-image: url("../img/hero-slide1.jpg");
   width: 100vw;
